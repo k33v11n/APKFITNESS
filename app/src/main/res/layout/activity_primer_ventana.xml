@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".primer_ventana">
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flexiones(push ups)"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="146dp"
+        android:layout_height="42dp"
+        android:text="Series:3-4 Repeticiones:10-15"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Series: 3-4 Repeticiones: 10-15"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:text="Sentadillas(Squats)"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="159dp"
+        android:layout_height="40dp"
+        android:text="Ectomoformo"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipos de Ejercicios"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:text="Crunches Abdominales"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:text="Plancha(Plank)"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="174dp"
+        android:layout_height="42dp"
+        android:text="Series:3-4 Tiempo en posicion:30-60segundos"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="171dp"
+        android:layout_height="43dp"
+        android:text="Series:3-4 Repeticiones:15-20"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
