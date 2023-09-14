@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tercera_ventana">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endomorfo"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="397dp"
+        android:layout_height="51dp"
+        android:text="Ejercicio cardiovascular en casa (saltar la cuerda, burpees, jumping jacks):"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:text="Sentadillas (squats) con peso corporal o con una silla como apoyo:"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plancha (plank):"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain climbers (escaladores):"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:text="Duración: 30-45 minutos Frecuencia: 4-5 días a la semana"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="178dp"
+        android:layout_height="57dp"
+        android:text="Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:text="Series: 3-4 series Duración: Mantén la posición durante 45-60 segundos por serie"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:text="Series: 3-4 series Repeticiones: 15-20 repeticiones por serie"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

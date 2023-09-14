@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segunda_ventana">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="132dp"
+        android:layout_height="37dp"
+        android:text="Mesomorfo"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="163dp"
+        android:layout_height="38dp"
+        android:text="Flexiones(push ups) con variaciones"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="159dp"
+        android:layout_height="33dp"
+        android:text="Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentadillas(Squats) con salto"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="212dp"
+        android:layout_height="35dp"
+        android:text="Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plancha(Plank)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:text="Series: 3-4 series Duración: Mantén la posición durante 45-60 segundos por serie"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burpees"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="364dp"
+        android:layout_height="76dp"
+        android:text="Series: 3-4 series Repeticiones: 10-12 repeticiones por serie"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipos de Ejercicios"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="104dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
